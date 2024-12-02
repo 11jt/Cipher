@@ -5,8 +5,8 @@ import com.github.cipher.cipherGui.ScreenGui
 import net.minecraft.command.CommandBase
 import net.minecraft.command.ICommandSender
 
-object GuiCommand : CommandBase() {
 
+object GuiCommand : CommandBase() {
     override fun getCommandName(): String = "gui"
 
     override fun getCommandUsage(sender: ICommandSender?): String = ""
